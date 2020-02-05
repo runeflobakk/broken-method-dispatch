@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 class DemonstrateBrokenMethodDispatchTest {
 
     @Test
-    void broken_method_dispatch_on_bounded_type_in_lambda_argument() {
+    void broken_method_dispatch_on_bounded_type_in_lambda_argument_with_Eclipse_compiler() {
         WithMessageRecipients withRecipients = new Message(new EmailRecipient("Jane", "jane@example.com"), new EmailRecipient("Joe", "joe@example.com"));
 
         withRecipients.getMessageRecipients()
