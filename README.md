@@ -29,3 +29,9 @@ mvn clean test -Pecj
 ```
 
 And it will produce the same error as when executed in the Eclipse IDE.
+
+The JDK release version is configured to 11, but can be changed with setting the `jdk` property like this:
+
+```bash
+mvn clean test -Pecj -Djdk=10
+```
